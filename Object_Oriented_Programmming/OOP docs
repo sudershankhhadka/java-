@@ -1,0 +1,53 @@
+------------------object oriented programming-------------------------
+
+
+
+1> Class and Object
+2>Encapsulation
+3>Inheritence
+4>Polymorphism
+5>Abstraction
+        a>abstract class
+        b>Interface
+
+
+--------------------Class----------------------
+
+-->Used to represent real world entities or things.
+-->Class contains properties/features and methods.
+-->Its a group or collection of objects having similar behaviours.
+-->Also known as template or blueprint of objects.
+-->Class is a reference or user defined data type.
+
+
+
+        Syntax:
+
+        class class_name{
+
+            //properties
+            //methods
+        }
+
+
+----------------------Object-----------------------
+
+
+
+-->Implementation of class
+-->Instance of class
+-->Instance == object
+-->Object contains instance variables and instance methods
+-->object allocates memory its created
+
+
+syntax:
+        class_name obj_name = new class_name();
+
+        eg.
+        C c = new C();
+
+
+
+
+

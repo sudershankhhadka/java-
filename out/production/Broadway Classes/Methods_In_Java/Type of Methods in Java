@@ -1,0 +1,21 @@
+1> Instance Method
+2> Static Method
+3> Accessor Method(Getters)
+4> Mutator Method(Setters)
+5> Constructor Method
+6> Final Method
+7> Abstract Method
+8> Varargs Method
+9> Native Method
+10>Synchronized Method
+11>Finalize Method
+
+
+
+on the basis of return type and parameter:
+
+
+1> No return type no parameter
+2> No return type with parameter/s
+3> Return type no parameter
+4> Return type with parameter/s

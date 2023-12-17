@@ -1,0 +1,17 @@
+-------------------------
+
+
+-->Process of data hiding and data binding
+-->To achieve encapsulation
+    a>declare properties of class as private(ie data hiding)
+    b>create public setters and getter methods to get and set values to private properties(ie data binding)
+
+
+
+
+
+
+
+
+
+to print object toString() method should be called (overrided).
