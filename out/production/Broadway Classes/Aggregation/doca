@@ -1,7 +1,7 @@
 composition : car and engine classes are composition
 
 
-        having direct relationships   thus erminating concept of inner class
+        having direct relationships   thus terminating concept of inner class
 
 
 aggregation : car and student classes are aggregation
