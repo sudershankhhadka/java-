@@ -55,4 +55,16 @@ public class Student {
     public void setCollege(String college) {
         this.college = college;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", fname='" + fname + '\'' +
+                ", lname='" + lname + '\'' +
+                ", age=" + age +
+                ", city='" + city + '\'' +
+                ", college='" + college + '\'' +
+                '}';
+    }
 }

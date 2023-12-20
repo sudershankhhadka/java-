@@ -6,9 +6,13 @@ public class Test {
 
         Test t = new Test();
 
-        Student sd = t.getStudentData();
+        Student d = t.getStudentData();
 
-        t.printStudent(sd);
+        t.printStudent(d);
+        Student s[] = t.getAlltudents();
+        for(Student sd : s){
+            System.out.println(sd);
+        }
     }
     //Object as  a parameter
 
@@ -32,21 +36,22 @@ public class Test {
 
 
     //for all students i.e.     using array of objects
-//        Student[] getAlltudents(){
-//        Student[] stds = new Student[5];
-//            for(int i=0;i<stds.length;i++){
-//                Student sd = new Student();
-//                sd.setId(232);
-//                sd.setFname("Sudershan");
-//                sd.setLname("Khadka");
-//                sd.setAge(21);
-//                sd.setCollege("Samriddhi");
-//                sd.setCity("Basundhara");
-//                return stds;
-//
-//
-//                //we can make it dynamic using Scanner.
-//            }
-//        }
+        Student[] getAlltudents(){
+        Student[] stds = new Student[2];
+            for(int i=0;i<stds.length;i++){
+                Student sd = new Student();
+                sd.setId(232);
+                sd.setFname("Sudershan");
+                sd.setLname("Khadka");
+                sd.setAge(21);
+                sd.setCollege("Samriddhi");
+                sd.setCity("Basundhara");
+                stds[i] = sd;
+            }
+
+            //we can make it dynamic using Scanner.
+
+            return stds;
+        }
 
 }

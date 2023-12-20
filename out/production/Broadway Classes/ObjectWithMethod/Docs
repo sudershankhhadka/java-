@@ -1,7 +1,7 @@
 a>Object as a parameter.
 
 Student Class-> id , first name , last name, age, college.......,30th;
-void printStudent(int id,Strng fname,String lastname,........................,30th)
+void printStudent(int id,String fname,String lastname,........................,30th)
 
         void printStudent(Student s)        {
         }
@@ -45,7 +45,7 @@ b>Object as a return type:
 
 
           Student[]  getStudentData(){
-               //create objecrt of the student
+               //create object of the student
                //set all the values to object
 
 
