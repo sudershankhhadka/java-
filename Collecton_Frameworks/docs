@@ -31,3 +31,10 @@ Java generics : runtime ma problem aauney kura laai solve garney class casting g
 exercise
 1>Student set
 2>Dog set
+
+
+
+
+
+MAP:
+Map<String,Integer> mpa =  new HashMap<>();
