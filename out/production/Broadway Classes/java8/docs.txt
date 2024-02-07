@@ -1,0 +1,12 @@
+-->lambda for functional programming 
+
+-->Lambda is used to implement functional interface
+
+
+-->An interface containing only one abstract method is functional interface
+
+
+--> We can pass function as a parameter 
+
+
+

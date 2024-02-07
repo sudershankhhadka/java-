@@ -1,0 +1,48 @@
+definition :
+-->used to create object in java.
+-->special type of method which has same name as class name
+-->If there is no any user defined constructor in class then java provides default constructor to create object.
+--> Types :
+        1> Default Constructor:
+            use to create objects and set default value to it.
+                syntax:
+                    class_name(){
+                    //set default values to object
+                    }
+        2>Parameterized Constructor:
+            used to create object and set dynamic values to it.
+
+            syntax:
+                class_name(arg_1,arg_2,....arg_n){
+                    //set dynamic values
+                    }
+
+****> constructor return values?
+        yes , objects of classes...
+        it implicitly returns the object
+
+
+
+'this' keyword :
+    -->represents current object
+    -->we can call
+        -->instance variables
+        -->instance methods
+        -->instance constructors
+        using 'this'  keyword
+
+
+
+
+
+   ----->objects and Object class
+
+   objects sanga class ma vako instance variables , metods except constructors
+
+
+
+
+
+
+
+   *** all the classes in java are implicitely inherited through 'Object' class

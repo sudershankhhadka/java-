@@ -1,0 +1,38 @@
+-->process of hiding implementation details in a program
+--> To achieve abstraction
+        a> Abstract Class
+            class which contains abstract(unimplemented) methods and non-abstract(implemented) methods is known as abstract class.
+
+                ==>Abstract Method: method which does not have body or implementation
+                  eg:
+                   abstract  void add();
+                   abstract void print(String message);
+
+                ==>Every abstract class must have at least one child class and child class must override abstract methods.
+                ==> We cannot create object of abstract class.
+                ==>Level of abstraction = 0-100;
+
+                abstract class class_name{
+                //contains abstract and non-abstract methods.
+                }
+
+        b> Interface
+            -->Same as class which contains public abstract methods and public static final variables is interface.
+            -->Every interface must have atleast one implementation class and implemented class must override abstract methods.
+            --> We cant create object of interface.
+            -->100% abstraction
+
+
+            syntax;
+                interface interface_name{
+                    //public static final variables
+                    //public abstract methods
+                }
+
+
+
+
+
+
+
+                always extend class before inheriting interfaces.

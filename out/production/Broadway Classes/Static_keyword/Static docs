@@ -1,0 +1,17 @@
+-->Used for memory management
+
+--->   object + .   == instance
+---->  Class + .   == static
+
+--->Static variables can be changed values
+
+
+instance  methods cannot be  directly called in the main method because main method is static
+
+they should be called by creating objects    or   the methods, variables should be declared static
+
+
+
+
+static has higher scope than instance variables
+

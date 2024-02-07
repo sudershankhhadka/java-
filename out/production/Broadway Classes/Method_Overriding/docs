@@ -1,0 +1,9 @@
+----------------------Method Overriding---------------------
+
+-> Used to achieve polymorphism
+-> Also known as runtime polymorphism
+->There should be 'is a' relationship betweeen classes
+->Method name , return type and list of parameter same as parent class but implementation is different in child class, then we
+implement method overriding.
+
+->

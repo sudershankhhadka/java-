@@ -1,0 +1,10 @@
+composition : car and engine classes are composition
+
+
+        having direct relationships   thus terminating concept of inner class
+
+
+aggregation : car and student classes are aggregation
+
+
+        not having direct relationships   hence can be made or declared in a differennt file names.

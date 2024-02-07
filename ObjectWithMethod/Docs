@@ -1,0 +1,55 @@
+a>Object as a parameter.
+
+Student Class-> id , first name , last name, age, college.......,30th;
+void printStudent(int id,String fname,String lastname,........................,30th)
+
+        void printStudent(Student s)        {
+        }
+
+
+
+
+            for multiple names to be printed:://pas
+             void printStudent(Student[] s)        {
+                    }
+
+
+
+
+
+        Student s = new Student();
+        s.id =656;
+        ....
+        ....
+        ....
+        30th
+
+
+
+
+        printStudent(s);
+
+
+b>Object as a return type:
+        Student  getStudentData(){
+        //create object of the student
+        //set all the values to object
+
+
+        //return object of Student;
+       }
+
+
+
+       for multiple students
+
+
+          Student[]  getStudentData(){
+               //create object of the student
+               //set all the values to object
+
+
+               //return object of Student;
+              }
+
+

@@ -1,0 +1,19 @@
+When is array required?
+
+::::multiple values+ same data type+ defined size of the array::::
+
+
+
+--> Collection of homegenous data
+--> Group of multiple values of same data type with fixed size
+--> Contains duplicate data
+--> Data stored on the basis of index; index starts from 0
+--> Random access
+--> Contiguous Memory Allocation
+--> Array is treated as object in java
+
+
+----Syntax:
+        data_type array_name[] = new data_type[size];
+
+
