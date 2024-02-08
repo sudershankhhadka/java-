@@ -39,18 +39,18 @@ public static void main(String[] args) {
 	//using lambda expression
 	
 	Test t2 =()-> {
-		System.out.println("After using lmaba expresison."); 
+		System.out.println("After using lamba expresison."); 
 		//for single line -----  Test t2 =()-> System.out.println("After using lmaba expresison.");      ---------- ('parameter) this represents null or some parameter 
 		
 	};
 	t2.print();
 	
 	
-	  add a = (c,d)->{
+	    int   add a = (int c,int d)->{
 		return c+d;
 		
 		
 	};
-	a.add();
+	a.add(23,23);
 }
 }
